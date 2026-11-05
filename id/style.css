@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* 2026年11月05日作成
+   IDの使い方(超ざっくり)
+*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* ジャンプさせるときにぬるっとさせるために必要なやつ */
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section:first-of-type {
+    border-top: 1px solid #ccc;
+}
+
+section h2 {
+    scroll-margin-top: 20px;
+    margin-bottom: 3-px;
+}
+
+section p {
+    margin-bottom: 30px;
+}
